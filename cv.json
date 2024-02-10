@@ -4,7 +4,7 @@
     "label": "Full Stack Developer especialista en react.",
     "image": "https://avatars.githubusercontent.com/u/19750134?v=4",
     "email": "eldragondera1@gmail.com",
-    "phone": "(+57) 3023198919",
+    "phone": "057 3023198919",
     "title": "Sobre mí",
     "summary": "Más de 5 años de experiencia como desarrollador web especialmente con React js y Vtex. Actualmente trabajo para Grupo Exito como Analista desarrollador 1 en el desarrollo y mantenimiento de las páginas de exito.com y carulla.com construidas en Fast Store de Vtex y Next JS.",
     "location": {
@@ -89,10 +89,16 @@
       "Python"
     ]
   },
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Ingles",
+      "fluency": "B1"
+    }
+  ],
   "projects": {
     "title": "Proyectos",
     "project": [
@@ -137,5 +143,8 @@
   "references": [{
     "name": "Jane Doe",
     "reference": "Reference…"
-  }]
+  }],
+  "commands": {
+    "title": "Buscar comando"
+  }
 }

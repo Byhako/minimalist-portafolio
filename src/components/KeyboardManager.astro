@@ -1,0 +1,40 @@
+---
+import { commands } from "@cv"
+const { title } = commands
+---
+<footer>
+
+</footer>
+
+<ninja-keys>
+  placeholder={title}
+</ninja-keys>
+
+<script>
+  import "ninja-keys"
+
+  const ninja = document.querySelector('ninja-keys')
+
+  if (ninja) {
+    ninja.data = [
+    {
+      id: 'Print',
+      title: '🖨️ Imprimir',
+      hotkey: 'ctrl+p',
+      section: 'Acciones',
+      handler: () => {
+        window.print()
+      },
+    }
+  ]
+
+  }
+</script>
+
+<style>
+  @media print {
+    ninja-keys {
+      display: none;
+    }
+  }
+</style>

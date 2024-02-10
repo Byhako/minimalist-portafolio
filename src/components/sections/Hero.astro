@@ -23,6 +23,11 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
         {city}, {country}
       </span>
       <footer>
+        <div class="print">
+          <p>• <span>{email}</span></p>
+          <p>• <span>{phone}</span></p>
+          <p>• <span>{profiles[0].url}</span></p>
+        </div>
         {email && (
           <a
             href={`mailto:${email}`}
@@ -114,4 +119,33 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
   footer a:hover {
     background: #dddddd;
   }
+
+  .print {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  @media print {
+    .print {
+      display: flex;
+    }
+    .print p {
+      max-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #777;
+    }
+    .print span {
+      margin-left: 5px;
+    }
+    footer {
+      margin-top: 0;
+    }
+    footer a {
+      display: none;
+    }
+  }
+
+
 </style>
