@@ -1,7 +1,75 @@
 ---
 import Section from "@/components/Section.astro"
+
+import { work } from "@cv"
+const { title, works } = work
 ---
 
-<Section title="Expetiencia">
+<Section title={title}>
+  <ul>
+    {works.map((item) => {
+      const startYear = new Date(item.startDate).getFullYear()
+      const endYear = item.endDate ? new Date(item.endDate).getFullYear() : 'Actual'
+      const years = `${startYear} - ${endYear}`
 
+      return (
+        <li>
+          <article>
+            <header>
+              <div>
+                <h3>{item.name} {item.highlight && <small>{item.highlight}</small>}</h3>
+                <h4>{item.position}</h4>
+              </div>
+              <time>{years}</time>
+            </header>
+
+            <footer>
+              <p>{item.summary}</p>
+            </footer>
+          </article>
+        </li>
+      )
+    })}
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  article h3 {
+    color: #111;
+    font-weight: 500;
+  }
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+  small {
+    background-color: #f1f1d0;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+  time {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  footer {
+    margin-top: 5px;
+  }
+  footer p {
+    color: #555;
+  }
+</style>

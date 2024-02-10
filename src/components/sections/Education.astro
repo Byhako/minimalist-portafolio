@@ -1,7 +1,60 @@
 ---
 import Section from "@/components/Section.astro"
+
+import { education } from "@cv"
+const { title, titles } = education
 ---
 
-<Section title="Educación">
+<Section title={title}>
+  <ul>
+    {titles.map((item) => {
+      const years = `${item.startDate} - ${item.endDate}`
 
+      return (
+        <li>
+          <article>
+            <header>
+              <div>
+                <h3>{item.institution}</h3>
+              </div>
+              <time>{years}</time>
+            </header>
+
+            <footer>
+              <p>{`${item.studyType} ${item.area}`}</p>
+            </footer>
+          </article>
+        </li>
+      )
+    })}
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  article h3 {
+    color: #111;
+    font-weight: 500;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+  time {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  footer {
+    margin-top: 5px;
+  }
+  footer p {
+    color: #555;
+  }
+</style>
