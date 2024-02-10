@@ -75,35 +75,29 @@
       }
     ]
   },
+  "skills": {
+    "title": "Habilidades",
+    "skill": [
+      "JavaScript",
+      "TypeScrip",
+      "Css",
+      "React",
+      "Next.js",
+      "Node",
+      "Vtex",
+      "Astro",
+      "Python"
+    ]
+  },
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
   "certificates": [{
     "name": "Certificate",
     "date": "2021-11-07",
     "issuer": "Company",
     "url": "https://certificate.com"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
   }],
   "projects": [{
     "name": "Project",
@@ -114,5 +108,9 @@
       "Won award at AIHacks 2016"
     ],
     "url": "https://project.com/"
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
   }]
 }
