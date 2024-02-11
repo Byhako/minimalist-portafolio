@@ -78,14 +78,14 @@
   "skills": {
     "title": "Habilidades",
     "skill": [
+      "React",
+      "Next.js",
+      "Vtex",
+      "Node",
+      "Astro",
       "JavaScript",
       "TypeScrip",
       "Css",
-      "React",
-      "Next.js",
-      "Node",
-      "Vtex",
-      "Astro",
       "Python"
     ]
   },

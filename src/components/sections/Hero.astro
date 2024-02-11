@@ -62,6 +62,58 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
       <img src={image} alt={name} />
     </figure>
   </div>
+
+  <div class="mobile">
+    <h1>{name}</h1>
+
+    <div class="row">
+      <div class="info">
+        <h2>{label}</h2>
+        <span>
+          <World />
+          {city}, {country}
+        </span>
+        <footer>
+          <div class="print">
+            <p>• <span>{email}</span></p>
+            <p>• <span>{phone}</span></p>
+            <p>• <span>{profiles[0].url}</span></p>
+          </div>
+          {email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar mensaje a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            ><Mail /></a>
+          )}
+          {phone && (
+            <a
+              href={`tel:${email}`}
+              title={`Laamar a ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            ><Phone /></a>
+          )}
+          {profiles.map(({ network, url }) => {
+            const Icon = SOCIAL_ICONS[network]
+            return (
+              <a
+                href={url}
+                title={`Perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              ><Icon /></a>
+            )
+          })}
+        </footer>
+      </div>
+  
+      <figure>
+        <img src={image} alt={name} />
+      </figure>
+    </div>
+  </div>
 </Section>
 
 
@@ -73,11 +125,30 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
     justify-content: space-between;
     gap: 1rem
   }
+  .mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
   .info {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     padding-right: 32px;
+  }
+
+  .mobile .info {
+    padding-right: 0.2rem;
+  }
+  .mobile img {
+    width: 90px;
   }
   h1 {
     font-size: 2rem;
@@ -127,6 +198,8 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
   }
 
   @media print {
+    .container { display: flex; }
+    .mobile { display: none; }
     .print {
       display: flex;
     }
@@ -145,6 +218,11 @@ const SOCIAL_ICONS: Record<string, any> = { Github, Linkedin }
     footer a {
       display: none;
     }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .container { display: none; }
+    .mobile { display: flex; }
   }
 
 

@@ -20,9 +20,12 @@ const profileInfo = profiles.map(({ network, url }) => ({
 
 ---
 <footer>
-  <span>{text1}</span>
-  <kbd><span class="text-xs">(⌘ Ctrl) </span>+ k</kbd>
-  <span>{text2}</span>
+  <div>
+    <span>{text1}</span>
+    <kbd><span class="text-xs">(⌘ Ctrl) </span>+ k</kbd>
+    <span>{text2}</span>
+  </div>
+  <button type="button">{print}</button>
 </footer>
 
 <ninja-keys
@@ -35,6 +38,7 @@ const profileInfo = profiles.map(({ network, url }) => ({
   import "ninja-keys"
 
   const ninja = document.querySelector('ninja-keys')
+  const button = document.querySelector('button')
 
   if (ninja) {
     const info = ninja?.getAttribute('data-info') ?? '[]'
@@ -46,8 +50,6 @@ const profileInfo = profiles.map(({ network, url }) => ({
         window.open(item.url, "_blank")
       }
     }))
-
-    console.log(data[0])
 
     ninja.data = [
     {
@@ -66,6 +68,8 @@ const profileInfo = profiles.map(({ network, url }) => ({
   ]
 
   }
+
+  button?.addEventListener('click', () => window.print())
 </script>
 
 <style>
@@ -103,5 +107,24 @@ const profileInfo = profiles.map(({ network, url }) => ({
   }
   kbd {
     color: #000;
+  }
+
+  footer button {
+    display: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    footer {
+      pointer-events: all;
+    }
+    footer div {
+      display: none;
+    }
+    footer button {
+      display: flex;
+      border: none;
+      width: 100%;
+      justify-content: center;
+    }
   }
 </style>
