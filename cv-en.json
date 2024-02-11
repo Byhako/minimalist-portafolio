@@ -89,16 +89,19 @@
       "Python"
     ]
   },
-  "languages": [
-    {
-      "language": "Español",
-      "fluency": "Nativo"
-    },
-    {
-      "language": "Ingles",
-      "fluency": "B1"
-    }
-  ],
+  "languages": {
+    "title": "Idiomas",
+    "languages": [
+      {
+        "language": "Español",
+        "fluency": "Nativo"
+      },
+      {
+        "language": "Ingles",
+        "fluency": "B1"
+      }
+    ]
+  },
   "projects": {
     "title": "Projects",
     "project": [
@@ -134,16 +137,6 @@
       }
     ]
   },
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
   "commands": {
     "title": "Search command",
     "text1" : "Pulse",

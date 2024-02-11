@@ -1,5 +1,9 @@
 ---
 import Section from "@/components/Section.astro"
+import type { CV } from "@/types.ts"
+interface Props {
+  cv: CV
+}
 
 const { cv: { projects } } = Astro.props
 const { title, project } = projects
@@ -17,7 +21,7 @@ const { title, project } = projects
           <p>{description}</p>
           </header>
           <footer>
-            {highlights.map(item => (
+            {highlights.map((item: string) => (
               <span>{item}</span>
             ))}
           </footer>

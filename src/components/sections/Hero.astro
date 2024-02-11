@@ -5,6 +5,10 @@ import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
 import Github from "@/icons/Github.astro"
 import Linkedin from "@/icons/Linkedin.astro"
+import type { CV } from "@/types.ts"
+interface Props {
+  cv: CV
+}
 
 const { cv: { basics } } = Astro.props
 
