@@ -1,13 +1,13 @@
 ---
 import Section from "@/components/Section.astro"
 
-import { work } from "@cv"
+const { cv: { work } } = Astro.props
 const { title, works } = work
 ---
 
 <Section title={title}>
   <ul>
-    {works.map((item) => {
+    {works.map((item: any) => {
       const startYear = new Date(item.startDate).getFullYear()
       const endYear = item.endDate ? new Date(item.endDate).getFullYear() : 'Actual'
       const years = `${startYear} - ${endYear}`

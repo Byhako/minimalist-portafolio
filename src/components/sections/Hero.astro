@@ -1,11 +1,12 @@
 ---
-import { basics } from "@cv"
 import Section from "@/components/Section.astro"
 import World from "@/icons/World.astro"
 import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
 import Github from "@/icons/Github.astro"
 import Linkedin from "@/icons/Linkedin.astro"
+
+const { cv: { basics } } = Astro.props
 
 const { name, label, image, location, profiles, phone, email} = basics
 const { city, country } = location

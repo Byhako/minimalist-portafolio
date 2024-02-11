@@ -1,13 +1,13 @@
 ---
 import Section from "@/components/Section.astro"
 
-import { education } from "@cv"
+const { cv: { education } } = Astro.props
 const { title, titles } = education
 ---
 
 <Section title={title}>
   <ul>
-    {titles.map((item) => {
+    {titles.map((item: any) => {
       const years = `${item.startDate} - ${item.endDate}`
 
       return (
