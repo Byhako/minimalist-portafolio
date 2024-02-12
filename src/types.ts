@@ -8,7 +8,6 @@ export interface CV {
     title: string
     summary: string
     location: {
-      address: string
       postalCode: string
       city: string
       countryCode: string
@@ -50,7 +49,7 @@ export interface CV {
 
 interface Profiles {
   network: string
-  usename: string
+  username: string
   url: string
 }
 
@@ -58,7 +57,7 @@ interface Work {
   name: string
   position: string
   startDate: string
-  endDate: string
+  endDate: string | null
   summary: string
   url: string
   highlight: string

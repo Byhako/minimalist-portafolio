@@ -35,6 +35,7 @@
         "startDate": "2020-03-16",
         "endDate": null,
         "summary": "Development and maintenance of components in react, next js and python within the Vtex IO and Vtex Fast Store ecosystem for the exito.com and carulla.com pages",
+        "url": "https://www.grupoexito.com.co/es",
         "highlight": ""
       },
       {
@@ -43,6 +44,7 @@
         "startDate": "2019-03-15",
         "endDate": "2020-02-07",
         "summary": "Development of applications and components in react, react native and Loopback4 for various clients of the company.",
+        "url": "https://www.sancrisoft.com",
         "highlight": "In person"
       },
       {
@@ -51,6 +53,7 @@
         "startDate": "2019-01-15",
         "endDate": "2021-11-07",
         "summary": "Development of web applications in react and node.",
+        "url": "https://www.bcfort.com",
         "highlight": "Remote"
       }
     ]
