@@ -121,12 +121,6 @@
         "highlights": ["Astro", "React", "Svelte", "Tailwind"]
       },
       {
-        "name": "Chat",
-        "description": "Easy chat with Sockets",
-        "url": "https://github.com/Byhako/chat_socket",
-        "highlights": ["JavaScript", "Sockets", "Turso DB"]
-      },
-      {
         "name": "Tetris",
         "description": "Tetris basic game",
         "url": "https://github.com/Byhako/tetris",
