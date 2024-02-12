@@ -36,6 +36,7 @@
         "startDate": "2020-03-16",
         "endDate": null,
         "summary": "Desarrollo y mantenimiento de componentes en react, next js y python dentro del ecosistema de Vtex IO y Vtex Fast Store para las páginas de exito.com y carulla.com",
+        "url": "https://www.grupoexito.com.co/es",
         "highlight": ""
       },
       {
@@ -44,6 +45,7 @@
         "startDate": "2019-03-15",
         "endDate": "2020-02-07",
         "summary": "Desarrollo de aplicaciones y componentes en react, react navite y Loopback4 para diversos clientes de la compañia.",
+        "url": "https://www.sancrisoft.com",
         "highlight": "Presencial"
       },
       {
@@ -52,6 +54,7 @@
         "startDate": "2019-01-15",
         "endDate": "2021-11-07",
         "summary": "Desarrollo de aplicaciones web en react y node.",
+        "url": "https://www.bcfort.com",
         "highlight": "Remoto"
       }
     ]
@@ -85,6 +88,7 @@
       "Astro",
       "JavaScript",
       "TypeScrip",
+      "Scss",
       "Css",
       "Python"
     ]
@@ -107,33 +111,63 @@
     "project": [
       {
         "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "description": "Replica de la página de los premios esland 2024",
+        "url": "https://github.com/Byhako/esland-web",
+        "highlights": ["Astro", "Preact", "Tailwind"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Clon Spotity",
+        "description": "Clon visual de Spotify",
+        "url": "https://github.com/Byhako/clone-spotify",
+        "highlights": ["Astro", "React", "Svelte", "Tailwind"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Chat",
+        "description": "Chat sencillo con Sokets",
+        "url": "https://github.com/Byhako/chat_socket",
+        "highlights": ["JavaScript", "Sockets", "Turso DB"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Tetris",
+        "description": "Juego básico de Tetris",
+        "url": "shttps://github.com/Byhako/tetris",
+        "highlights": ["JavaScript", "Css"]
       },
       {
-        "name": "Esland",
+        "name": "Ejemplo de un markerPlace",
         "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "url": "https://github.com/Byhako/mercado",
+        "highlights": ["Next", "Tailwind", "TypeScript"]
+      },
+      {
+        "name": "Memory to RP",
+        "description": "Algunos juegos de memoria",
+        "url": "https://github.com/Byhako/memory-to-rp",
+        "highlights": ["React", "Vite"]
+      },
+      {
+        "name": "Reloj inverso",
+        "description": "Reloj digita en sentido inverso",
+        "url": "https://github.com/Byhako/inverse_clock",
+        "highlights": ["React", "Vite"]
+      },
+      {
+        "name": "Pokedesk",
+        "description": "Pockedesk con los primeros 151 pokemons",
+        "url": "https://github.com/Byhako/pokedesk",
+        "highlights": ["Next", "Axios"]
+      },
+      {
+        "name": "Planificador de gastos",
+        "description": "Planifica los gastos a partir de un presupuesto dado",
+        "url": "https://github.com/Byhako/react-presupuesto",
+        "highlights": ["React", "Css"]
+      },
+      {
+        "name": "Criptos",
+        "description": "Cotiza el valor de algunas criptomonedas en diferentes monedas como dolar, euro, peso...",
+        "url": "https://github.com/Byhako/react-criptos",
+        "highlights": ["styled-components", "React"]
       }
     ]
   },

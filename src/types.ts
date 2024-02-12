@@ -18,7 +18,7 @@ export interface CV {
   }
   work: {
     title: string
-    works: Array<work>
+    works: Array<Work>
   }
   education: {
     title: string
@@ -60,6 +60,7 @@ interface Work {
   startDate: string
   endDate: string
   summary: string
+  url: string
   highlight: string
 }
 
@@ -71,7 +72,7 @@ interface Title {
   endDate: string
 }
 
-interface Proyect {
+interface Project {
   name: string
   description: string
   url: string
