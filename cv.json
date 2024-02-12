@@ -129,7 +129,7 @@
       {
         "name": "Tetris",
         "description": "Juego básico de Tetris",
-        "url": "shttps://github.com/Byhako/tetris",
+        "url": "https://github.com/Byhako/tetris",
         "highlights": ["JavaScript", "Css"]
       },
       {
