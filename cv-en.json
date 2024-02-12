@@ -1,14 +1,13 @@
 {
   "basics": {
     "name": "Ruben Eduardo Acosta Vela",
-    "label": "Full Stack Developer especialista en react.",
+    "label": "Full Stack Developer specialized in react.",
     "image": "https://avatars.githubusercontent.com/u/19750134?v=4",
     "email": "eldragondera1@gmail.com",
     "phone": "057 3023198919",
     "title": "About",
-    "summary": "Más de 5 años de experiencia como desarrollador web especialmente con React js y Vtex. Actualmente trabajo para Grupo Exito como Analista desarrollador 1 en el desarrollo y mantenimiento de las páginas de exito.com y carulla.com construidas en Fast Store de Vtex y Next JS.",
+    "summary": "More than 5 years of experience as a web developer especially with React js and Vtex. He currently works for Grupo Exito as Developer Analyst 1 in the development and maintenance of the exito.com and carulla.com pages built on Vtex Fast Store and Next JS.",
     "location": {
-      "address": "2712 Broadway St",
       "postalCode": "055448",
       "city": "Medellín",
       "countryCode": "CO",
@@ -35,7 +34,7 @@
         "position": "Analista desarrollador 1",
         "startDate": "2020-03-16",
         "endDate": null,
-        "summary": "Desarrollo y mantenimiento de componentes en react, next js y python dentro del ecosistema de Vtex IO y Vtex Fast Store para las páginas de exito.com y carulla.com",
+        "summary": "Development and maintenance of components in react, next js and python within the Vtex IO and Vtex Fast Store ecosystem for the exito.com and carulla.com pages",
         "highlight": ""
       },
       {
@@ -43,16 +42,16 @@
         "position": "Desarrollador full stack",
         "startDate": "2019-03-15",
         "endDate": "2020-02-07",
-        "summary": "Desarrollo de aplicaciones y componentes en react, react navite y Loopback4 para diversos clientes de la compañia.",
-        "highlight": "Presencial"
+        "summary": "Development of applications and components in react, react native and Loopback4 for various clients of the company.",
+        "highlight": "In person"
       },
       {
         "name": "BCFort",
         "position": "Desarrollador web",
         "startDate": "2019-01-15",
         "endDate": "2021-11-07",
-        "summary": "Desarrollo de aplicaciones web en react y node.",
-        "highlight": "Remoto"
+        "summary": "Development of web applications in react and node.",
+        "highlight": "Remote"
       }
     ]
   },
@@ -85,6 +84,7 @@
       "Astro",
       "JavaScript",
       "TypeScrip",
+      "Scss",
       "Css",
       "Python"
     ]
@@ -107,33 +107,63 @@
     "project": [
       {
         "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "description": "Replica of the esland awards page, 2024",
+        "url": "https://github.com/Byhako/esland-web",
+        "highlights": ["Astro", "Preact", "Tailwind"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Clon Spotity",
+        "description": "Spotify visual clone",
+        "url": "https://github.com/Byhako/clone-spotify",
+        "highlights": ["Astro", "React", "Svelte", "Tailwind"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Chat",
+        "description": "Easy chat with Sockets",
+        "url": "https://github.com/Byhako/chat_socket",
+        "highlights": ["JavaScript", "Sockets", "Turso DB"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "Tetris",
+        "description": "Tetris basic game",
+        "url": "shttps://github.com/Byhako/tetris",
+        "highlights": ["JavaScript", "Css"]
       },
       {
-        "name": "Esland",
-        "description": "Replica de la pagina de los premios esland",
-        "url": "https://project.com/",
-        "highlights": ["React", "Sass"]
+        "name": "MarkerPlace",
+        "description": "Example of a marketplace using the Mercadolibre API",
+        "url": "https://github.com/Byhako/mercado",
+        "highlights": ["Next", "Tailwind", "TypeScript"]
+      },
+      {
+        "name": "Memory to RP",
+        "description": "Some memory games",
+        "url": "https://github.com/Byhako/memory-to-rp",
+        "highlights": ["React", "Vite"]
+      },
+      {
+        "name": "Inverse Clock",
+        "description": "Digital clock in reverse",
+        "url": "https://github.com/Byhako/inverse_clock",
+        "highlights": ["React", "Vite"]
+      },
+      {
+        "name": "Pokedesk",
+        "description": "Pockedesk with the first 151 pokemons",
+        "url": "https://github.com/Byhako/pokedesk",
+        "highlights": ["Next", "Axios"]
+      },
+      {
+        "name": "Expense planner",
+        "description": "Plan expenses based on a given budget",
+        "url": "https://github.com/Byhako/react-presupuesto",
+        "highlights": ["React", "Css"]
+      },
+      {
+        "name": "Criptos",
+        "description": "Quote the value of some cryptocurrencies in different currencies such as dollar, euro, peso...",
+        "url": "https://github.com/Byhako/react-criptos",
+        "highlights": ["styled-components", "React"]
       }
     ]
   },
